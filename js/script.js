@@ -7,7 +7,7 @@ const calculateExpense = () => {
   if (
     income < 0 || income == "" || food < 0 || food == "" ||  rent < 0 || rent == "" ||  clothes < 0 ||  clothes == ""
   ) {
-    alert("Inputs must be positive numbers");
+    alert("Invalid Input");
     return;
   }
   // calculate expense
